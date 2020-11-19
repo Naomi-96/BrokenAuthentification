@@ -1,0 +1,10 @@
+CREATE DATABASE brokenauth;
+
+USE brokenauth;
+
+CREATE TABLE user (
+	ID int NOT NULL AUTO_INCREMENT,
+	email VARCHAR(255) NOT NULL,
+	password CHAR(60) NOT NULL,
+	PRIMARY KEY(ID)
+);
